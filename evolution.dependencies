@@ -60,8 +60,3 @@
         "target_path": "hardware/samsung_slsi/scsc_wifibt/wpa_supplicant_lib"
     }
 ]
-   {
-      "repository": "packages_apps_ViPER4AndroidFX",
-      "target_path": "packages/apps/ViPER4AndroidFX"
-}
-]
