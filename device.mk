@@ -36,8 +36,10 @@ TARGET_SCREEN_WIDTH := 1080
 PRODUCT_PACKAGES += \
     android.hardware.biometrics.fingerprint-service.samsung-r8s
 
-# Overlays 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+# Overlays
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay \
+    $(LOCAL_PATH)/overlay-evolution
 
 # Sensors
 PRODUCT_COPY_FILES += \

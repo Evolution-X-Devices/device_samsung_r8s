@@ -43,3 +43,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # Define PDA property for camera
 PRODUCT_SYSTEM_PROPERTIES += \
     ro.build.PDA=G780FXXSDFWH8
+
+# Disable EPPE
+TARGET_DISABLE_EPPE := true
